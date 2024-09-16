@@ -1,7 +1,7 @@
 // src/controllers/fileController.js
 const fs = require('fs');
 const path = require('path');
-const { getCurrentTimestamp, getFormattedDate } = require('./utils/fileUtils');
+const { getCurrentTimestamp, getFormattedDate } = require('./fileUtils');
 
 // Task 1: Create a text file with the current timestamp
 exports.createFile = (req, res) => {
